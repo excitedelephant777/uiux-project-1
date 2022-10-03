@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+h1, h2 {
+  color: #34568B;
+  font-weight: 500;
+}
+
+.sketch-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sketch-item {
+  height: 500px;
+}
+
+.maps-container, .persona-container, .storyboard-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.map-item {
+  width: 900px;
+  height: 500px;
+}
+
+.storyboard-item {
+  border: solid;
+  border-color: gray;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+
